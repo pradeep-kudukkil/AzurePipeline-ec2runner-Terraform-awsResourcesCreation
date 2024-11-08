@@ -4,27 +4,18 @@ In this tutorial, learn how to automate the creation of AWS resources (such as E
 
 #Terraform installation
 
-- install unzip
-sudo apt-get install unzip -y
-- Download the Terraform binary
-wget https://releases.hashicorp.com/terraform/1.5.0/terraform_1.5.0_linux_amd64.zip  # Update with the latest version if needed
-- Unzip the binary
-unzip terraform_1.5.0_linux_amd64.zip
-- Move Terraform to a directory in your PATH
-sudo mv terraform /usr/local/bin/
-- Verify the installation
-terraform version
+- install unzip: sudo apt-get install unzip -y
+- Download the Terraform binary: wget https://releases.hashicorp.com/terraform/1.5.0/terraform_1.5.0_linux_amd64.zip  # Update with the latest version if needed
+- Unzip the binary: unzip terraform_1.5.0_linux_amd64.zip
+- Move Terraform to a directory in your PATH: sudo mv terraform /usr/local/bin/
+- Verify the installation: terraform version
 
 
 #AWS CLI installation
 
-- Download the AWS CLI Installation Script
-curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
-- Unzip the Installation Package
-unzip awscliv2.zip
-- Run the Installer
-sudo ./aws/install
-- Verify the Installation
-aws --version
+- Download the AWS CLI Installation Script: curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+- Unzip the Installation Package: unzip awscliv2.zip
+- Run the Installer: sudo ./aws/install
+- Verify the Installation: aws --version
 
 
