@@ -15,6 +15,5 @@ jobs:
         inputs:
           targetType: 'inline'
           script: |
-            echo "Starting multiple commands"
-            aws s3 ls
-            ls
+            terraform init
+            terraform apply -auto-approve
